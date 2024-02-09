@@ -1,0 +1,35 @@
+.countdown-timer {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .start-button, .stop-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .start-button:disabled, .stop-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .current-time {
+    font-size: 24px;
+  }
+  
